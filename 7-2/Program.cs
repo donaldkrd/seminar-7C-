@@ -6,7 +6,7 @@ int m = int.Parse(Console.ReadLine()!);
 Console.Write("Введите n:");
 int n = int.Parse(Console.ReadLine()!);
 
-int[,] array = new int[m, n];
+int[,] array = new int[10, 10];
 FillArray(array);
 
 if (n > array.GetLength(0) || m > array.GetLength(1))
